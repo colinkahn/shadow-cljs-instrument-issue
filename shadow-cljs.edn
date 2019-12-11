@@ -1,0 +1,7 @@
+;; shadow-cljs configuration
+{:deps true
+ :builds
+ {:tests {:target :browser-test
+          :test-dir "out/tests"
+          :devtools {:http-port 7711
+                     :http-root "out/tests"}}}}

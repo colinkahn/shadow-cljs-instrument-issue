@@ -1,0 +1,2 @@
+{:deps {thheller/shadow-cljs {:mvn/version "2.8.51"}}
+ :aliases {:shadow {:main-opts ["-m" "shadow.cljs.devtools.cli"]}}}
